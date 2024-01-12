@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\miradorwebapi</_PublishTargetUrl>
+    <History>True|2024-01-10T10:34:35.7501874Z;False|2024-01-10T10:33:59.3063314+00:00;False|2024-01-10T10:33:53.0656453+00:00;True|2024-01-09T12:48:26.3741268+00:00;True|2024-01-09T11:58:51.4108552+00:00;True|2024-01-09T11:13:53.1239895+00:00;True|2024-01-09T10:47:13.3701781+00:00;False|2024-01-09T10:46:06.0641875+00:00;True|2024-01-08T23:51:56.1000316+00:00;False|2024-01-08T23:51:52.2018115+00:00;True|2024-01-08T23:43:02.1602885+00:00;False|2024-01-08T23:40:20.7927912+00:00;True|2024-01-08T21:50:25.1788178+00:00;True|2024-01-08T21:47:59.2274855+00:00;True|2024-01-07T23:47:32.5831989+00:00;True|2024-01-07T23:39:38.3380410+00:00;True|2024-01-07T22:41:37.8352707+00:00;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+</Project>

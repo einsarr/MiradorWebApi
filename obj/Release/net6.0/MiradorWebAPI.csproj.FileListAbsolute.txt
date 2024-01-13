@@ -73,3 +73,4 @@ C:\Users\moussa_sarr\Downloads\ASP Net Core 5 Web APIs Using DB First [In-depth 
 C:\Users\moussa_sarr\Downloads\ASP Net Core 5 Web APIs Using DB First [In-depth in 8 Days]\MiradorWebAPI\obj\Release\net6.0\MiradorWebAPI.genruntimeconfig.cache
 C:\Users\moussa_sarr\Downloads\ASP Net Core 5 Web APIs Using DB First [In-depth in 8 Days]\MiradorWebAPI\obj\Release\net6.0\ref\MiradorWebAPI.dll
 C:\Users\moussa_sarr\Downloads\ASP Net Core 5 Web APIs Using DB First [In-depth in 8 Days]\MiradorWebAPI\bin\Release\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\moussa_sarr\Downloads\ASP Net Core 5 Web APIs Using DB First [In-depth in 8 Days]\MiradorWebAPI\bin\Release\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

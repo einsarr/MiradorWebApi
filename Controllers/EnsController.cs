@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MiradorWebAPI.ApiModels;
@@ -8,6 +9,7 @@ namespace MiradorWebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
     public class EnsController : ControllerBase
     {
         FUPContext context;
@@ -27,7 +29,7 @@ namespace MiradorWebAPI.Controllers
             enseignantAPI.NOM_ENSEIGNANT = ens.NomEnseignant;
             return Ok(enseignantAPI);
         }
-        [HttpGet("/messages")]
+        [HttpGet("messages")]
         public string GetMessages()
         {
             return "Bonjour";

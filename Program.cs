@@ -20,6 +20,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
 
 builder.Services.ConfigureApplicationCookie(opt =>
 {
+    opt.ExpireTimeSpan = new TimeSpan(0, 0, 45);
     opt.Events = new Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationEvents()
     {
         //AUTHENTICATIOB
@@ -40,20 +41,13 @@ builder.Services.ConfigureApplicationCookie(opt =>
 
 
 
-
-
-
-
-
-
-
 builder.Services.AddControllers();
-builder.Services.AddSwaggerDocument(x => { x.Title = "My Org API"; });
+builder.Services.AddOpenApiDocument(x => { x.Title = "MIRADOR WEB API"; });
 
 //builder.Services.AddDbContext<FUPContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServerConnection")));
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Bienvenue");
 
 app.UseStaticFiles();
 app.UseRouting();

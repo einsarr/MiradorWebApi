@@ -1,0 +1,13 @@
+Scaffold-DbContext "Server=DESKTOP-H0HTCRI;Database=FUP;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+Scaffold-DbContext "Server=DESKTOP-H0HTCRI;Database=FUP;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir DbModels -Tables ENSEIGNANT,ATLAS_SYS_DEF_ALL,ENSEIGNANT_ETABLISSEMENT,ETABLISSEMENT,ETABLISSEMENT_REGROUPEMENT -f 
+
+
+
+
+
+ "ConnectionStrings": {
+    "SqlServerConnection": "Data source=.;Initial Catalog=AngularAuth;Integrated Security=True;Encrypt=False;"
+  },
+
+
